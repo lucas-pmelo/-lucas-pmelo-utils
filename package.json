@@ -1,0 +1,21 @@
+{
+  "name": "utils-lib",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.24.7",
+    "@types/bun": "latest",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.5",
+    "@types/pino": "^7.0.5",
+    "express": "^4.19.2",
+    "node-mocks-http": "^1.16.0",
+    "pino": "^9.3.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@lucas-pmelo/logger": "^0.0.2"
+  }
+}

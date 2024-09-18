@@ -1,0 +1,28 @@
+{
+  "name": "@lucas-pmelo/logger",
+  "version": "0.0.3",
+  "description": "Logger set",
+  "author": "Lucas Melo",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "bun test --coverage",
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/pino": "^7.0.5"
+  },
+  "dependencies": {
+    "pino": "^9.3.2"
+  }
+}

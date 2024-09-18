@@ -1,0 +1,30 @@
+{
+  "name": "@lucas-pmelo/validator",
+  "version": "0.0.1",
+  "description": "Validation helper",
+  "author": "Lucas Melo",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "bun test --coverage",
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "joi": "^17.13.3"
+  }
+}
