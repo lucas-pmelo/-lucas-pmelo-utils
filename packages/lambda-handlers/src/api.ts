@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import InternalServerError from "./errors/internal-server-error";
 import { Controller } from "./utils/models";
 import { parseRequest } from "./utils/parse-request";
-import { logger } from "@lucas-pmelo/logger";
+import logger from "@lucas-pmelo/logger";
 
 export class ApiHandler {
   constructor(private readonly controller: Controller) {}

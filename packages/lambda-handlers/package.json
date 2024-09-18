@@ -26,14 +26,10 @@
     "tsc": "tsc"
   },
   "devDependencies": {
-    "@types/bun": "latest",
     "@types/express": "^4.17.21"
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
   "dependencies": {
-    "@lucas-pmelo/logger": "0.0.3",
+    "@lucas-pmelo/logger": "0.0.4",
     "express": "^4.21.0"
   }
 }

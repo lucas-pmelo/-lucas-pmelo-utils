@@ -2,6 +2,10 @@
   "name": "utils-lib",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "tsc": "tsc -p tsconfig.build.json",
+    "test": "jest --coverage"
+  },
   "devDependencies": {
     "@babel/preset-typescript": "^7.24.7",
     "@types/bun": "latest",
