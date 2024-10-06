@@ -1,6 +1,6 @@
 {
   "name": "@lucas-pmelo/logger",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Logger set",
   "author": "Lucas Melo",
   "license": "ISC",
@@ -30,6 +30,7 @@
     "@types/pino": "^7.0.5"
   },
   "dependencies": {
+    "@lucas-pmelo/logger": "0.0.6",
     "pino": "^9.3.2"
   }
 }
